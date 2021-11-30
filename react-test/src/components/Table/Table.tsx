@@ -28,7 +28,7 @@ type TableData = {
 };
 
 const fetchTableData = async (page: number) => {
-  const response = await fetch(`/table?page=${page}`);
+  const response = await fetch(`/api/table?page=${page}`);
   return await response.json();
 };
 

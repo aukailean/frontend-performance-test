@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/api"
+  from = "/api/*"
   to = "https://mock-rw-sv.herokuapp.com/"
   status = 200
   force = true 

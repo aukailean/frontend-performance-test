@@ -1,6 +1,6 @@
 [[redirects]]
 from = "/api/*"
-  to = "https://mock-rw-sv.herokuapp.com/api/:query"
+  to = "https://mock-rw-sv.herokuapp.com/api/:splat"
   status = 200
   force = true 
   headers = {X-From = "Netlify"}
